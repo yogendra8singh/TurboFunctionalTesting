@@ -52,7 +52,7 @@ namespace seleniumDemo
             IWebElement borrower = driverGC.FindElement(By.Name("borrowerdropdown"));
             SelectElement borrowerSelect = new SelectElement(borrower);
             borrowerSelect.SelectByIndex(6);
-            Thread.Sleep(6000);
+            Thread.Sleep(9000);
 
             IWebElement team = driverGC.FindElement(By.Name("dropdownTeam"));
             SelectElement teamSelect = new SelectElement(team);
